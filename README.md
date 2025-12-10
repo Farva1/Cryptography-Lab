@@ -41,9 +41,6 @@ Cryptography-Lab/
     ├── vigenere_encrypt_window
     └── vigenere_key_found
 
-yaml
-Copy code
-
 ---
 
 # 1. Caesar Cipher
