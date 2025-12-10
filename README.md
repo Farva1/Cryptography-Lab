@@ -1,182 +1,183 @@
-Cryptography Lab (Caesar, Vigenère, RSA & Poker Test)
+# Cryptography Lab (Caesar, Vigenère, RSA & Poker Test)
 
-Author: Umme Farva
-Tools Used: CrypTool 1.4.42
+**Author:** Umme Farva  
+**Tools Used:** CrypTool 1.4.42  
 
-Overview
+---
+
+## Overview
 
 This project demonstrates several foundational cryptographic techniques using CrypTool, including:
 
-Caesar Cipher – classical substitution cipher
+- **Caesar Cipher** – classical substitution cipher  
+- **Vigenère Cipher** – polyalphabetic encryption  
+- **RSA** – public-key cryptography (1024-bit keypair generation)  
+- **Poker Test** – randomness evaluation of ciphertext  
 
-Vigenère Cipher – polyalphabetic encryption
+The goal is to understand how classical and modern cryptography work, how they fail, and how attackers perform cryptanalysis.
 
-RSA – modern public-key cryptography (1024-bit keypair)
+All screenshots are included for documentation and portfolio evidence.
 
-Poker Test – randomness evaluation of ciphertext
+---
 
-The goal is to understand how classical and modern cryptography work, how they can be analyzed, and how attackers perform cryptanalysis.
+## Project Structure
 
-All screenshots have been included for documentation and portfolio evidence.
-
-Project Structure
 Cryptography-Lab/
 │
 ├── README.md
 └── Screenshots/
-    ├── caesar_bruteforce
-    ├── caesar_ciphertext
-    ├── caesar_decrypt
-    ├── caesar_encrypt_window
-    ├── poker_test_graph
-    ├── poker_test_summary
-    ├── rsa_decrypt
-    ├── rsa_encrypt
-    ├── rsa_keygen
-    ├── vigenere_analysis_window
-    ├── vigenere_ciphertext
-    ├── vigenere_decrypt
-    ├── vigenere_encrypt_window
-    └── vigenere_key_found
+├── caesar_bruteforce
+├── caesar_ciphertext
+├── caesar_decrypt
+├── caesar_encrypt_window
+├── poker_test_graph
+├── poker_test_summary
+├── rsa_decrypt
+├── rsa_encrypt
+├── rsa_keygen
+├── vigenere_analysis_window
+├── vigenere_ciphertext
+├── vigenere_decrypt
+├── vigenere_encrypt_window
+└── vigenere_key_found
 
-1. Caesar Cipher
-1.1 Encryption (Key = 3)
+yaml
+Copy code
 
-Plaintext:
-THIS IS MY CRYPTOGRAPHY LAB
+---
 
-Applied a shift of 3 positions.
+# 1. Caesar Cipher
 
-Screenshots:
+## 1.1 Encryption (Key = 3)
 
-caesar_encrypt_window
+**Plaintext:**  
+`THIS IS MY CRYPTOGRAPHY LAB`
 
-caesar_ciphertext
+Applied a shift of **3**.
 
-1.2 Decryption
+**Screenshots:**  
+- caesar_encrypt_window  
+- caesar_ciphertext  
 
-Recovered original plaintext using the same key.
+---
 
-Screenshot:
+## 1.2 Decryption
 
-caesar_decrypt
+Recovered original plaintext using key **3**.
 
-1.3 Brute-Force Attack
+**Screenshot:**  
+- caesar_decrypt  
 
-CrypTool tests all 25 possible Caesar shifts and displays each result.
+---
 
-Screenshot:
+## 1.3 Brute-Force Analysis
 
-caesar_bruteforce
+CrypTool tests all 25 Caesar shifts.
 
-2. Vigenère Cipher
-2.1 Encryption (Key = SECURITY)
+**Screenshot:**  
+- caesar_bruteforce  
 
-Plaintext:
-CRYPTOGRAPHY PROJECT USING VIGENERE
+---
 
-CrypTool applies polyalphabetic substitution.
+# 2. Vigenère Cipher
 
-Screenshots:
+## 2.1 Encryption (Key = SECURITY)
 
-vigenere_encrypt_window
+**Plaintext:**  
+`CRYPTOGRAPHY PROJECT USING VIGENERE`
 
-vigenere_ciphertext
+**Screenshots:**  
+- vigenere_encrypt_window  
+- vigenere_ciphertext  
 
-2.2 Decryption
+---
+
+## 2.2 Decryption
 
 Recovered plaintext using the same key.
 
-Screenshot:
+**Screenshot:**  
+- vigenere_decrypt  
 
-vigenere_decrypt
+---
 
-2.3 Vigenère Analysis / Key Discovery
+## 2.3 Vigenère Key Analysis
 
-CrypTool performed statistical analysis to detect:
+CrypTool identifies:
 
-Key length
+- Key length  
+- Repeated sequences  
+- Correlation spikes  
 
-Repeating patterns
+**Screenshots:**  
+- vigenere_analysis_window  
+- vigenere_key_found  
 
-Correlation spikes
+---
 
-Actual key guess
+# 3. RSA Public-Key Cryptography
 
-Screenshots:
+## 3.1 Key Generation (1024-bit)
 
-vigenere_analysis_window
+Generated RSA public/private key pair.
 
-vigenere_key_found
+**Screenshot:**  
+- rsa_keygen  
 
-3. RSA Public-Key Cryptography
-3.1 Key Generation (1024-bit)
+---
 
-Generated a public/private key pair inside CrypTool.
+## 3.2 RSA Encryption
 
-Screenshot:
+**Message:** `HELLO RSA`
 
-rsa_keygen
+**Screenshot:**  
+- rsa_encrypt  
 
-3.2 RSA Encryption
+---
 
-Encrypted the plaintext:
+## 3.3 RSA Decryption
 
-HELLO RSA
+Original plaintext recovered.
 
-Screenshot:
+**Screenshot:**  
+- rsa_decrypt  
 
-rsa_encrypt
+---
 
-3.3 RSA Decryption
+# 4. Poker Test (Randomness Evaluation)
 
-Recovered the original plaintext using the private key.
+## 4.1 Graph Output
 
-Screenshot:
+Statistical distribution of ciphertext.
 
-rsa_decrypt
+**Screenshot:**  
+- poker_test_graph  
 
-4. Poker Test – Randomness Evaluation
+---
 
-The Poker Test was executed on Vigenère ciphertext to measure randomness quality.
+## 4.2 Summary
 
-4.1 Graph Output
+Shows:
 
-Shows the statistical distribution and randomness behavior.
+- Expected score  
+- Actual score  
+- Result: **Failed** (normal for classical ciphers)
 
-Screenshot:
+**Screenshot:**  
+- poker_test_summary  
 
-poker_test_graph
+---
 
-4.2 Summary / Score
+# Key Learning Outcomes
 
-CrypTool displays:
+- Learned classical and modern encryption  
+- Practiced cryptanalysis techniques  
+- Evaluated randomness with Poker Test  
+- Documented full cybersecurity lab with screenshots  
 
-Expected test value
+---
 
-Actual test score
+# Author
 
-Result: failed (expected — Vigenère is not random)
-
-Screenshot:
-
-poker_test_summary
-
-Key Learning Outcomes
-
-Through this lab, I practiced and demonstrated:
-
-Classical encryption (Caesar, Vigenère)
-
-Modern public-key cryptography (RSA)
-
-Cryptanalysis & statistical attacks
-
-Randomness testing using Poker Test
-
-Proper lab documentation for cybersecurity portfolios
-
-Author
-
-Umme Farva
-Cybersecurity Analyst | SOC & Cryptography Learner
+**Umme Farva**  
+Cybersecurity Analyst & SOC Learner
