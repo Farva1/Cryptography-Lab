@@ -8,7 +8,7 @@ All steps include screenshots stored in the **Screenshots/** folder.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Cryptography-Lab/
 │── README.md
@@ -33,7 +33,7 @@ Copy code
 
 ---
 
-# 🔹 1. Caesar Cipher
+# 1. Caesar Cipher
 
 ## **1.1 Encryption (Key = 3)**
 
@@ -65,7 +65,7 @@ CrypTool tested all 25 shifts.
 
 ---
 
-# 🔹 2. Vigenère Cipher
+# 2. Vigenère Cipher
 
 ## **2.1 Encryption (Key = SECURITY)**
 
@@ -105,7 +105,7 @@ CrypTool identifies:
 
 ---
 
-# 🔹 3. RSA Public-Key Cryptography
+# 3. RSA Public-Key Cryptography
 
 ## **3.1 RSA Key Generation (1024-bit)**
 
@@ -131,7 +131,7 @@ Copy code
 
 ---
 
-# 🔹 4. Poker Test – Randomness Evaluation
+# 4. Poker Test – Randomness Evaluation
 
 Performed on Vigenère ciphertext.
 
@@ -145,7 +145,7 @@ Result: **FAILED** — expected because classical ciphers are not random.
 
 ---
 
-# 🎯 Skills Demonstrated
+# Skills Demonstrated
 
 - Classical encryption (Caesar, Vigenère)
 - Modern RSA public/private key operations
@@ -155,7 +155,7 @@ Result: **FAILED** — expected because classical ciphers are not random.
 
 ---
 
-# ✅ Summary
+# Summary
 
 This cryptography lab provides hands-on experience with both classical and modern cryptographic methods using CrypTool. It is structured for use in cybersecurity portfolios and academic submissions.
 
