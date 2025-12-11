@@ -145,3 +145,6 @@ Result: **FAILED** — expected because classical ciphers are not random.
 - The project is formatted for cybersecurity portfolios and academic submissions, demonstrating foundational cryptography      skills relevant to SOC analysis, threat intelligence, and secure system design.
 
 ---
+
+**Author:** Umme Farva  
+**Role:** Cybersecurity Analyst
