@@ -139,9 +139,9 @@ Result: **FAILED** — expected because classical ciphers are not random.
 
 ## Final Overview
 
-This cryptography lab provides hands-on experience with both classical and modern encryption techniques using CrypTool.  
-It covers end-to-end workflow steps including encryption, decryption, key generation, ciphertext analysis, and randomness testing — all supported with screenshots stored in the **Screenshots/** folder.
+- This cryptography lab provides hands-on experience with both classical and modern encryption techniques using CrypTool.  
+- It covers end-to-end workflow steps including encryption, decryption, key generation, ciphertext analysis, and randomness    testing — all supported with screenshots stored in the **Screenshots/** folder.
 
-The project is formatted for cybersecurity portfolios and academic submissions, demonstrating foundational cryptography skills relevant to SOC analysis, threat intelligence, and secure system design.
+- The project is formatted for cybersecurity portfolios and academic submissions, demonstrating foundational cryptography      skills relevant to SOC analysis, threat intelligence, and secure system design.
 
 ---
