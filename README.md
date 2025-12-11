@@ -146,5 +146,8 @@ Result: **FAILED** — expected because classical ciphers are not random.
 
 ---
 
-**Author:** Umme Farva  
-**Role:** Cybersecurity Analyst
+### Author
+
+**Umme Farva**  
+Cybersecurity Analyst
+
