@@ -34,6 +34,7 @@ THIS IS MY CRYPTOGRAPHY LAB
 **Encryption Window:**  
 ![Caesar Encrypt](Screenshots/caesar_encrypt_window.PNG)
 
+
 **Ciphertext Output:**  
 ![Caesar Ciphertext](Screenshots/caesar_ciphertext.png)
 
@@ -63,6 +64,7 @@ CRYPTOGRAPHY PROJECT USING VIGENERE
 **Vigenère Encryption Window:**  
 ![Vigenere Encrypt Window](Screenshots/vigenere_encrypt_window.PNG)
 
+
 **Ciphertext Output:**  
 ![Vigenere Ciphertext](Screenshots/vigenere_ciphertext.png)
 
@@ -83,7 +85,8 @@ CRYPTOGRAPHY PROJECT USING VIGENERE
 - correlation peaks  
 
 **Analysis Window:**  
-![Vigenere Analysis](Screenshots/vigenere_analysis_window.PNG)
+![Vigenere Analysis](Screenshots/vigenere_analysis_window.PNG) 
+
 
 **Key Found:**  
 ![Vigenere Key Found](Screenshots/vigenere_key_found.png)
