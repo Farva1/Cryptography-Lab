@@ -85,7 +85,7 @@ CRYPTOGRAPHY PROJECT USING VIGENERE
 - correlation peaks  
 
 **Analysis Window:**  
-![Vigenere Analysis](Screenshots/vigenere_analysis_window.PNG) 
+![Vigenere Analysis](Screenshots/vigenere_analysis_window.png)
 
 
 **Key Found:**  
