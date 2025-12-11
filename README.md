@@ -131,3 +131,7 @@ The goal was to understand how different cryptographic algorithms behave and how
 
 # Conclusion
 This project provided hands-on experience with encryption, decryption, cryptanalysis, and randomness evaluation, demonstrating essential skills for cybersecurity and SOC analysis roles.
+
+Author
+Umme Farva
+Cybersecurity Analyst
