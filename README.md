@@ -1,5 +1,5 @@
 # Cryptography Lab – Caesar, Vigenère, RSA & Poker Test
-Hands-on cryptography using CrypTool 1.4.42.  
+Hands-on cryptography using CrypTool 1.4.42. 
 This project covers classical ciphers, RSA, and randomness testing with screenshots documenting each step.
 
 ## Project Overview
