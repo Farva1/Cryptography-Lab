@@ -1,200 +1,133 @@
-Cryptography Lab (Caesar, Vigenère, RSA & Poker Test)
+# Cryptography Lab – Caesar, Vigenère, RSA & Poker Test
+Hands-on cryptography using CrypTool 1.4.42.  
+This project covers classical ciphers, RSA, and randomness testing with screenshots documenting each step.
 
-Author: Umme Farva
-Tools Used: CrypTool 1.4.42
+## Project Overview
+This lab demonstrates:
 
-Overview
+- Caesar cipher encryption & decryption  
+- Vigenère cipher encryption & key analysis  
+- RSA 1024-bit keypair generation, encryption & decryption  
+- Poker Test randomness evaluation  
 
-This project demonstrates several foundational cryptographic techniques using CrypTool, including:
+The goal was to understand how different cryptographic algorithms behave and how cryptanalysis helps reveal patterns.
 
-Caesar Cipher – classical substitution cipher
+---
 
-Vigenère Cipher – polyalphabetic encryption
+# 1. Caesar Cipher
 
-RSA – modern public-key cryptography (1024-bit keypair generation)
+## 1.1 Encryption (Key = 3)
+- Typed plaintext: `THIS IS MY CRYPTOGRAPHY LAB`
+- Applied a Caesar shift of 3.
 
-Poker Test – randomness evaluation of ciphertext
+**Screenshots:**  
+- `caesar_encrypt_window`  
+- `caesar_ciphertext`
 
-The goal of this lab is to understand:
+---
 
-How classical and modern cryptography work
+## 1.2 Decryption
+- Used the same key (3) to recover original plaintext.
 
-How they fail under analysis
+**Screenshot:**  
+- `caesar_decrypt`
 
-How attackers perform cryptanalysis
+---
 
-How randomness impacts security
+## 1.3 Brute-Force Attack
+- Selected ciphertext and ran Caesar Analysis in CrypTool.
+- Tool displayed all 25 possible shifts.
 
-All screenshots have been included for documentation and portfolio evidence.
+**Screenshot:**  
+- `caesar_bruteforce`
 
-Project Structure
-Cryptography-Lab/
-│
-├── README.md
-└── Screenshots/
-    ├── caesar_bruteforce
-    ├── caesar_ciphertext
-    ├── caesar_decrypt
-    ├── caesar_encrypt_window
-    ├── poker_test_graph
-    ├── poker_test_summary
-    ├── rsa_decrypt
-    ├── rsa_encrypt
-    ├── rsa_keygen
-    ├── vigenere_analysis_window
-    ├── vigenere_ciphertext
-    ├── vigenere_decrypt
-    ├── vigenere_encrypt_window
-    └── vigenere_key_found
+---
 
-1. Caesar Cipher
-1.1 Encryption (Key = 3)
+# 2. Vigenère Cipher
 
-Plaintext:
-THIS IS MY CRYPTOGRAPHY LAB
+## 2.1 Encryption (Key = SECURITY)
+- Typed plaintext: `CRYPTOGRAPHY PROJECT USING VIGENERE`
+- Used key: SECURITY
+- CrypTool generated ciphertext.
 
-The Caesar cipher shifts each letter by 3 positions.
+**Screenshots:**  
+- `vigenere_encrypt_window`  
+- `vigenere_ciphertext`
 
-Screenshots:
+---
 
-caesar_encrypt_window
+## 2.2 Decryption
+- Decrypted with same key.
 
-caesar_ciphertext
+**Screenshot:**  
+- `vigenere_decrypt`
 
-1.2 Decryption
+---
 
-Applied the same key (3) to recover the original plaintext.
+## 2.3 Vigenère Key Analysis
+- Ran Vigenère Analysis on ciphertext.
+- CrypTool estimated key length and patterns.
 
-Screenshot:
+**Screenshots:**  
+- `vigenere_analysis_window`  
+- `vigenere_key_found`
 
-caesar_decrypt
+---
 
-1.3 Brute-Force Analysis
+# 3. RSA – Public Key Cryptography
 
-CrypTool computed all 25 possible shifts and presented every candidate plaintext.
+## 3.1 RSA Key Generation (1024-bit)
+- Generated RSA public/private keypair using CrypTool.
 
-Screenshot:
+**Screenshot:**  
+- `rsa_keygen`
 
-caesar_bruteforce
+---
 
-2. Vigenère Cipher
-2.1 Encryption (Key = SECURITY)
+## 3.2 RSA Encryption
+- Encrypted plaintext: `HELLO RSA`
+- Produced RSA ciphertext blocks.
 
-Plaintext:
-CRYPTOGRAPHY PROJECT USING VIGENERE
+**Screenshot:**  
+- `rsa_encrypt`
 
-Key: SECURITY
-A polyalphabetic method that uses repeating key letters.
+---
 
-Screenshots:
+## 3.3 RSA Decryption
+- Highlighted ciphertext → RSA Decrypt
+- CrypTool recovered original plaintext.
 
-vigenere_encrypt_window
+**Screenshot:**  
+- `rsa_decrypt`
 
-vigenere_ciphertext
+---
 
-2.2 Decryption
+# 4. Poker Test (Randomness Evaluation)
 
-Used the same key (SECURITY) to retrieve the original message.
+## 4.1 Graph Output
+- Ran Poker Test on Vigenère ciphertext.
+- Viewed statistical distribution.
 
-Screenshot:
+**Screenshot:**  
+- `poker_test_graph`
 
-vigenere_decrypt
+---
 
-2.3 Vigenère Analysis (Key Discovery)
+## 4.2 Summary / Score
+- CrypTool reported expected vs. actual score.
+- Result: **Poker Test Failed** (normal for classical ciphers)
 
-CrypTool performed:
+**Screenshot:**  
+- `poker_test_summary`
 
-Key length estimation
+---
 
-Autocorrelation analysis
+# Skills Demonstrated
+- Classical encryption (Caesar, Vigenère)
+- Modern public-key cryptography (RSA)
+- Cryptanalysis and key estimation
+- Randomness analysis
+- Lab documentation with screenshots
 
-Pattern matching
-
-Statistical scoring
-
-It successfully identified the structure of the encryption.
-
-Screenshots:
-
-vigenere_analysis_window
-
-vigenere_key_found
-
-3. RSA Public-Key Cryptography
-3.1 Key Generation (1024-bit)
-
-Generated a 1024-bit RSA keypair inside CrypTool.
-
-Screenshot:
-
-rsa_keygen
-
-3.2 RSA Encryption
-
-Plaintext:
-HELLO RSA
-
-Using the generated public key, CrypTool produced RSA ciphertext.
-
-Screenshot:
-
-rsa_encrypt
-
-3.3 RSA Decryption
-
-Recovered the plaintext using the private key.
-
-Screenshot:
-
-rsa_decrypt
-
-4. Poker Test – Randomness Evaluation
-
-The Poker Test was performed on the Vigenère ciphertext to evaluate randomness.
-Classical ciphers always fail randomness tests, which is expected.
-
-4.1 Graph Output
-
-Displays distribution used in randomness scoring.
-
-Screenshot:
-
-poker_test_graph
-
-4.2 Summary / Score
-
-CrypTool reported:
-
-Expected (maximal) test value
-
-Actual computed score
-
-Result: Poker test failed → normal for classical ciphers
-
-Screenshot:
-
-poker_test_summary
-
-Key Learning Outcomes
-
-Through this lab, I practiced:
-
-Classical encryption (Caesar, Vigenère)
-
-Public-key cryptography (RSA)
-
-Cryptanalysis methods
-
-Randomness testing
-
-Documentation and portfolio structuring skills
-
-This project serves as evidence of hands-on cryptography knowledge suitable for:
-
-Cybersecurity Analyst roles
-
-SOC Analyst positions
-
-Threat Intelligence
-
-Academic cryptography foundations
+# Conclusion
+This project provided hands-on experience with encryption, decryption, cryptanalysis, and randomness evaluation, demonstrating essential skills for cybersecurity and SOC analysis roles.
