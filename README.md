@@ -62,7 +62,7 @@ CrypTool tested all 25 shifts.
 CRYPTOGRAPHY PROJECT USING VIGENERE
 
 **Vigenère Encryption Window:**  
-![Vigenere Encrypt Window](Screenshots/vigenere_encrypt_window.PNG)
+![Vigenere Encrypt Window](Screenshots/vigenere_encrypt_window.png)
 
 
 **Ciphertext Output:**  
@@ -85,7 +85,7 @@ CRYPTOGRAPHY PROJECT USING VIGENERE
 - correlation peaks  
 
 **Analysis Window:**  
-![Vigenere Analysis](Screenshots/vigenere_analysis_window.png) 
+![Vigenere Analysis](Screenshots/vigenere_analysis_window.PNG) 
 
 
 **Key Found:**  
