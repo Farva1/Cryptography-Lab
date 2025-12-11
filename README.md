@@ -28,20 +28,14 @@ Cryptography-Lab/
 ├── vigenere_encrypt_window.PNG
 ├── vigenere_key_found.png
 
-yaml
-Copy code
-
 ---
 
 # 1. Caesar Cipher
 
 ## **1.1 Encryption (Key = 3)**
 
-Plaintext:  
+**Plaintext:** 
 THIS IS MY CRYPTOGRAPHY LAB
-
-yaml
-Copy code
 
 **Encryption Window:**  
 ![Caesar Encrypt](Screenshots/caesar_encrypt_window.PNG)
@@ -69,11 +63,8 @@ CrypTool tested all 25 shifts.
 
 ## **2.1 Encryption (Key = SECURITY)**
 
-Plaintext:  
+**Plaintext:**  
 CRYPTOGRAPHY PROJECT USING VIGENERE
-
-yaml
-Copy code
 
 **Vigenère Encryption Window:**  
 ![Vigenere Encrypt Window](Screenshots/vigenere_encrypt_window.PNG)
@@ -115,11 +106,8 @@ CrypTool identifies:
 
 ## **3.2 RSA Encryption**
 
-Plaintext:  
+**Plaintext:**
 HELLO RSA
-
-yaml
-Copy code
 
 ![RSA Encrypt](Screenshots/rsa_encrypt.png)
 
