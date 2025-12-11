@@ -97,7 +97,7 @@ CRYPTOGRAPHY PROJECT USING VIGENERE
 
 ## **3.1 RSA Key Generation (1024-bit)**
 
-![RSA Keygen](Screenshots/rsa_keygen.PNG)
+![RSA Keygen](Screenshots/rsa_keygen.png)
 
 ---
 
