@@ -32,10 +32,12 @@ All screenshots used in this project are stored in the **Screenshots/** folder.
 THIS IS MY CRYPTOGRAPHY LAB
 
 **Encryption Window:**  
+
 ![Caesar Encrypt](Screenshots/caesar_encrypt_window.PNG)
 
 
 **Ciphertext Output:**  
+
 ![Caesar Ciphertext](Screenshots/caesar_ciphertext.png)
 
 ---
@@ -62,10 +64,12 @@ CrypTool tested all 25 shifts.
 CRYPTOGRAPHY PROJECT USING VIGENERE
 
 **Vigenère Encryption Window:**  
+
 ![Vigenere Encrypt Window](Screenshots/vigenere_encrypt_window.png)
 
 
 **Ciphertext Output:**  
+
 ![Vigenere Ciphertext](Screenshots/vigenere_ciphertext.png)
 
 ---
@@ -85,10 +89,12 @@ CRYPTOGRAPHY PROJECT USING VIGENERE
 - correlation peaks  
 
 **Analysis Window:**  
+
 ![Vigenere Analysis](Screenshots/vigenere_analysis_window.png)
 
 
 **Key Found:**  
+
 ![Vigenere Key Found](Screenshots/vigenere_key_found.png)
 
 ---
@@ -121,9 +127,11 @@ HELLO RSA
 Performed on Vigenère ciphertext.
 
 **Graph Output:**  
+
 ![Poker Graph](Screenshots/poker_test_graph.png)
 
 **Summary (Score):**  
+
 ![Poker Summary](Screenshots/poker_test_summary.PNG)
 
 Result: **FAILED** — expected because classical ciphers are not random.
