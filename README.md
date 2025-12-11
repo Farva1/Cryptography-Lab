@@ -1,32 +1,26 @@
 # Cryptography Lab – Caesar, Vigenère, RSA & Poker Test
 
 **Author:** Umme Farva  
-**Tool Used:** CrypTool 1.4.42
 
-This project demonstrates foundational cryptographic techniques including classical ciphers (Caesar, Vigenère), modern RSA encryption, and randomness testing using the Poker Test.  
-All steps include screenshots stored in the **Screenshots/** folder.
+## Overview
 
----
+This project demonstrates several foundational cryptographic techniques using CrypTool 1.4.42.  
+The lab covers classical ciphers, modern public-key cryptography, and randomness testing used in security analysis.
 
-## Project Structure
+### Techniques Covered
+- **Caesar Cipher** – classical substitution cipher  
+- **Vigenère Cipher** – polyalphabetic encryption  
+- **RSA (1024-bit)** – modern public/private key cryptography  
+- **Poker Test** – statistical randomness evaluation of ciphertext  
 
-Cryptography-Lab/
-│── README.md
-└── Screenshots/
-├── caesar_bruteforce.png
-├── caesar_ciphertext.png
-├── caesar_decrypt.png
-├── caesar_encrypt_window.PNG
-├── poker_test_graph.png
-├── poker_test_summary.PNG
-├── rsa_decrypt.png
-├── rsa_encrypt.png
-├── rsa_keygen.PNG
-├── vigenere_analysis_window.PNG
-├── vigenere_ciphertext.png
-├── vigenere_decrypt.png
-├── vigenere_encrypt_window.PNG
-├── vigenere_key_found.png
+### What This Lab Shows
+- How classical encryption works  
+- How decryption and brute-force attacks succeed  
+- How RSA keys are generated, used, and validated  
+- How randomness tests reveal weaknesses in classical ciphers  
+- How to document cybersecurity work clearly with screenshots  
+
+All screenshots used in this project are stored in the **Screenshots/** folder.
 
 ---
 
