@@ -82,7 +82,7 @@ CRYPTOGRAPHY PROJECT USING VIGENERE
 
 ## **2.3 Vigenère Key Analysis**
 
-CrypTool identifies:
+**CrypTool identifies:**
 
 - possible key length  
 - repeating patterns  
