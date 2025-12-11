@@ -127,18 +127,21 @@ Result: **FAILED** — expected because classical ciphers are not random.
 
 ---
 
-# Skills Demonstrated
+## Core Competencies
 
-- Classical encryption (Caesar, Vigenère)
-- Modern RSA public/private key operations
-- Cryptanalysis techniques
-- Statistical randomness testing
-- Documentation & screenshot-based reporting
+- Classical encryption methods (Caesar, Vigenère)  
+- Public-key cryptography using RSA (1024-bit)  
+- Cryptanalysis techniques and key-recovery concepts  
+- Statistical randomness evaluation using the Poker Test  
+- Documentation, reporting, and reproducible cybersecurity lab work  
 
 ---
 
-# Summary
+## Final Overview
 
-This cryptography lab provides hands-on experience with both classical and modern cryptographic methods using CrypTool. It is structured for use in cybersecurity portfolios and academic submissions.
+This cryptography lab provides hands-on experience with both classical and modern encryption techniques using CrypTool.  
+It covers end-to-end workflow steps including encryption, decryption, key generation, ciphertext analysis, and randomness testing — all supported with screenshots stored in the **Screenshots/** folder.
+
+The project is formatted for cybersecurity portfolios and academic submissions, demonstrating foundational cryptography skills relevant to SOC analysis, threat intelligence, and secure system design.
 
 ---
